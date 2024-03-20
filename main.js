@@ -133,3 +133,55 @@ const led = {
 let rgb = Object.values(led);
 
 console.log('rgb', rgb);
+
+const O_Error = {
+    código: 'HELP!',
+};
+
+console.log(O_Error);
+
+const Grupo = {
+    integrantes: ['Pedro', 'Lucas', 'Quique', 'Raimundo'],
+};
+
+console.log(Grupo.integrantes[1]);
+
+const impresora = {
+    tinta: {
+        rojo: 30,
+        verde: 60,
+        azul: 90,
+    }
+};
+
+let nivelesTinta = impresora.tinta;
+
+console.log(nivelesTinta);
+
+const Movil = {
+    especificaciones: ['120GB', '5G', '4K'],
+};
+
+let especificaciones = Movil.especificaciones;
+
+console.log(especificaciones);
+
+portatil.marca = 'MSI';
+
+console.log(portatil.marca);
+
+concierto.grupos.push('Guns N` Roses');
+
+console.log(concierto.grupos);
+
+concierto.fecha = '1 de diciembre';
+
+concierto.fecha = new Date();
+
+console.log(concierto.fecha);
+
+Grupo.integrantes.splice(0, 1)
+
+console.log(Grupo.integrantes);
+
+console.log(Grupo.integrantes.length);

@@ -69,3 +69,67 @@ console.log(loGuardoTodo[1]);
 loGuardoTodo.push('Euralio')
 
 console.log(loGuardoTodo);
+
+// parte objetos
+
+const coche = {
+    marca: 'BMW',
+    modelo: 'Serie 1',
+    matricula: '0473MDP',
+};
+
+const casa = {
+    codPostal: 46111,
+    calle: 'Gran via Marques del Turia',
+    portal: 40,
+    piso: 8,
+};
+
+const FullStackDeveloper = {
+    lenguajes: ['javascript', 'php', 'python'],
+    proyectos: ['mi pagina personal', 'pimera carta', 'ejercicio resposive'],
+};
+
+const perro = {
+    nombre: 'bob',
+    raza: 'pastor belga',
+    color: 'negro y fuego',
+    edad: 8,
+};
+
+const noticia = {
+    titular: 'Fin de las fallas',
+    cuerpo: 'Las fallas se terminaron ayer',
+};
+
+const persona = {
+    nombre: 'Manuel',
+    apellido: 'Dana',
+    edad: 26,
+};
+
+console.log(persona.nombre);
+
+console.log(FullStackDeveloper.lenguajes[0]);
+
+const portatil = {
+    marca: 'PcCom',
+};
+
+console.log(portatil.marca);
+
+const concierto = {
+    grupos: ['grupo 1', 'grupo 2', 'grupo 3'],
+};
+
+console.log('grupos', concierto.grupos);
+
+const led = {
+    lampara1: 'rojo',
+    lampara2: 'verde',
+    lampara3: 'azul',
+};
+
+let rgb = Object.values(led);
+
+console.log('rgb', rgb);
